@@ -1,0 +1,5 @@
+127.0.0.1 - - [13/Nov/2021:02:34:39 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:02:34:40 +0900] "GET /semi-Project/ HTTP/1.1" 200 6948
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:02:34:40 +0900] "GET /semi-Project/images/%EB%B9%84%EB%8F%84%EB%9D%BC%EC%9D%B4%ED%94%84%20%EC%8B%9C%EC%95%88.png HTTP/1.1" 200 20679
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:02:34:40 +0900] "GET /semi-Project/images/venom2.JPG HTTP/1.1" 404 845
+0:0:0:0:0:0:0:1 - - [13/Nov/2021:02:34:40 +0900] "GET /semi-Project/images/%EC%8B%9C%EA%B7%B8%EB%84%90.JPG HTTP/1.1" 404 866

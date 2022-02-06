@@ -1,0 +1,27 @@
+1636915368870	Copy package
+1636915376194	Delete element
+1636953543728	Move 'boardList.jsp' to 'board'
+1636953545120	Move 'boardSelect.jsp' to 'board'
+1636953546336	Move 'boardWrite.jsp' to 'board'
+1636957144647	Move 'views' to 'WEB-INF'
+1636961870196	Delete element
+1636965130898	Rename type 'boardListServlet'
+1636965226331	Copy file
+1636992526512	Copy file
+1637112178256	Copy file
+1637112197045	Copy file
+1637113566693	Copy file
+1637113577659	Copy file
+1637116240655	Rename type 'boardReviewSelectServlet'
+1637225188684	Rename type 'boardBuyDetailServlet'
+1637225195939	Rename type 'boardBuyListServlet'
+1637225202199	Rename type 'boardJoinDetailServlet'
+1637225209576	Rename type 'boardJoinListServlet'
+1637225216799	Rename type 'boardReviewDetailServlet'
+1637225229362	Rename type 'boardReviewListServlet'
+1637225236287	Rename type 'writeBuyFormServlet'
+1637225242402	Rename type 'writeJoinFormServlet'
+1637225250070	Rename type 'writeReviewFormServlet'
+1637303156277	Copy file
+1637303218312	Copy file
+1637303233887	Copy file

@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\0_ViDoLiFe_workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1345310746.index
+3788525140.index
+3553149823.index
+1348320533.index
+2067808360.index
+1795600367.index
+1818033386.index

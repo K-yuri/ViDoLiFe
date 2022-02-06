@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="board.model.dao.BoardDAO"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="board.model.vo.PageInfo"/>
+<fullyQualifiedTypeName name="java.sql.Statement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="board.model.vo.Board"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Member"/>
+<fullyQualifiedTypeName name="member.model.vo.Member"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="board.model.service.BoardService"/>
+<fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="board.model.vo.Comment"/>
+<fullyQualifiedTypeName name="kr.or.kobis.kobisopenapi.consumer.rest.KobisOpenAPIRestService"/>
+<fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.util.http.fileupload.servlet.ServletFileUpload"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.oreilly.servlet.MultipartRequest"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="common.MyFileRenamePolicy"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="board.model.vo.Attachment"/>
+</qualifiedTypeNameHistroy>

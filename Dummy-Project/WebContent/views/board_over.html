@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Nanum+Gothic&display=swap" rel="stylesheet">
+<title>Insert title here</title>
+<style>
+	body{
+		background: ghostwhite;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-family: 'Jua', sans-serif;
+	}
+	
+	header{
+		font-family: 'Jua', sans-serif;
+	}
+	
+	#logo {width: 200px;}
+	#login {text-align: right; font-size: 8px;}
+	
+	#searchText {
+		text-align: right;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding: 0px;
+	}
+	
+	#searchWord {
+		border: 1px solid #00CED1;
+		font-size: 15px;
+		width: 300px;
+		height: 30px;
+	}
+	#input {
+		border: none;
+		background: #00CED1;
+		vertical-align: middle;
+		font-family: 'Jua', sans-serif;
+		width: 50px;
+		height: 35px;
+	}
+	
+	#topMenu {
+		height: 30px;
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+	}
+	#topMenu ul {
+		margin: 0px;
+		padding: 0px;
+	}
+	#topMenu ul li {
+		list-style: none;
+		color: white;
+		float: left;
+		line-height: 30px;
+		vertical-align: middle;
+		text-align: center;
+	}
+	#topMenu .menuLink {
+		text-decoration: none;
+		color: black;
+		display: block;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	#topMenu ul li:hover {background-color: ghostwhite;}
+	
+	#search {background: #AFEEEE; width: 20%;}
+	#review {background: #7FFFD4; width: 20%;}
+	#allview {background: #40E0D0; width: 20%;}
+	#allbuy {background: #48D1CC; width: 20%;}
+	#mypage {background: #00CED1; width: 20%;}
+	
+	.contents{
+		margin-top:10px;
+		border: 1px solid lightgray;
+		padding: 20px;
+	}
+	.board_titleArea{
+		text-align:left;
+		text-decoration: none;
+	}
+	
+	a{
+		color: black;
+		text-decoration: none;
+	}
+	
+	.content_part{
+		border-bottom: 1px solid lightgray;
+		padding-bottom: 10px;
+		font-family: 'Nanum Gothic', sans-serif;
+		line-height: 150%;
+	}
+	
+	.content_titleArea, .comment_partArea{
+		border-bottom: 1px solid lightgray;
+		padding-bottom: 10px;
+	}
+	
+	.comment_titleArea{
+		padding-bottom: 20px;
+		font-size: 20px;
+	}
+	
+	#return_list{
+		border: none;
+		background: #00CED1;
+		font-family: 'Jua', sans-serif;
+		margin-left: 90%;
+		height: 25px;
+		border-radius: 5px;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<div id="login">회원가입 / 로그인</div>
+		<div>
+			<a href="D:\semi-Project\semi-Project\WebContent\index.html"><img
+				id="logo" src="../images/비도라이프 시안.png"></a>
+		</div>
+		<div id="searchText">
+			<input type="text" id="searchWord">
+			<button id="input">검색</button>
+		</div>
+		<nav id="topMenu">
+			<ul>
+				<li id="search"><a class="menuLink" href="#">상세검색</a></li>
+				<li id="review"><a class="menuLink"
+					href="views/board_into.html">리뷰 게시판</a></li>
+				<li id="allview"><a class="menuLink" href="#">단체관람 게시판</a></li>
+				<li id="allbuy"><a class="menuLink" href="#">공동구매 게시판</a></li>
+				<li id="mypage"><a class="menuLink" href="#">공지사항</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="contents">
+		<div class="board_titleArea">
+			<a href="board_into.html">리뷰게시판▷</a>
+		</div>
+		<div class="content_titleArea">
+			<!-- 글제목, 사용자프로필, 글작성 날짜 및 시간, 조회수가 들어가는 부분 -->
+			<div class="content_title" style="font-size: 20px;">글제목입니다.
+				모가디슈 너무재밌어요.</div>
+			<br> <span class="writer_profile"> <a href="#"><img
+					src="../images/propile.PNG" width="30" height="30"></a>
+			</span> <span class="content_info"> <span class="nickname"> <a
+					href="#">닉네임</a></span> <br> <span class="write_date">2021.12.12
+			</span> <span class="write_time">08:30</span> <span class="view_count">조회수123</span>
+			</span>
+		</div>
+
+		<br>
+
+		<div class="content_part">
+			<!-- 작성한 글이 들어가는 부분 -->
+			<img src="../images/mogadishu.JPG" width="100px"><br> 글
+			내용이 들어갑니다.<br> 월요일엔 아마 바쁘지 않을까 화요일도 성급해 보이지 안 그래 수요일은 뭔가 어정쩡한 느낌
+			목요일은 그냥 내가 왠지 싫어 우 이번 주 금요일 우 금요일에 시간 어때요 주말까지 기다리긴 힘들어 시간아 달려라 시계를 더
+			보채고 싶지만 (mind control) 일분 일초가 달콤해 이 남자 도대체 뭐야 사랑에 빠지지 않곤 못 배기겠어 온 종일
+			내 맘은 저기 시계바늘 위에 올라타 한 칸씩 그대에게 더 가까이 우 이번 주 금요일 우 금요일에 시간 어때요 딱히 보고 싶은
+			영화는 없지만 딱히 먹고 싶은 메뉴는 없지만 주말까지 기다리긴 힘들어 시간아 달려라 시계를 더 보채고 싶지만 (mind
+			control) 일분 일초가 달콤해 이 남자 도대체 뭐야 사랑에 빠지지 않곤 못 배기겠어 온 종일 내 맘은 저기 시계바늘
+			위에 올라타 한 칸씩 그대에게 더 가까이 나 뭔가에 홀린 것 같아 이 여잔 도대체 뭐야 사랑해주지 않고는 못 배기겠어
+			돌아오는 이번 주 금요일에 만나요 그 날 내 맘을 더 가져가줘요 더 가까이 더 가까이 와요 더 가까이
+		</div>
+		<br>
+		<div class="comment_titleArea">댓글</div>
+		<div class="comment_partArea">
+			<!-- 댓글에 관련된 부분 -->
+			<span class="commenter_image"> <img
+				src="../images/propile.PNG" width="30" height="30">
+			</span> <a href="#">답글자의 닉네임</a> <span class="comment_date">21.12.12
+				09:30</span> <span><a href="#" class="comment_reply">답글달기</a></span>
+
+			<div class="comment_area">
+				<p>
+					<span class="comment">댓글내용이 들어가는 자리. 저도 재미있게 봤어요ㅎㅎ</span> &nbsp;
+				</p>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="comment_partArea">
+			<!-- 댓글에 관련된 부분 -->
+			<span class="commenter_image"> <img
+				src="../images/propile.PNG" width="30" height="30">
+			</span> <a href="#">답글자의 닉네임2</a> <span class="comment_date">21.12.15
+				13:50</span> <span><a href="#" class="comment_reply">답글달기</a></span>
+
+			<div class="comment_area">
+				<p>
+					<span class="comment">맞아요!! 저도 보면서 그런 생각을 해서 공감되네요 ㅎㅎ</span> &nbsp;
+				</p>
+			</div>
+		</div>
+
+	</div>
+
+	<br>
+	<button id="return_list" onclick="backToList()">목록으로</button>
+
+</body>
+</html>
